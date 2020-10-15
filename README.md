@@ -12,9 +12,9 @@ Data was fetched from Hacker News Api (https://hacker-news.firebaseio.com/v0/top
 Mobile layout is also available.
 
 **Screenshots:**
-![desktop](src/screenshots/desktop.png)
+![desktop](screenshots/desktop.png)
 <br /><br />
-![mobile](src/screenshots/mobile.png)
+![mobile](screenshots/mobile.png)
 
 **You can clone the repository and run the project on your machine.**<br />
 `npm start` - runs the app in the development mode. <br />
