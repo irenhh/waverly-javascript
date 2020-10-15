@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/irenhh/waverly-javascript/static/css/main.8195615c.chunk.css",
-    "main.js": "/irenhh/waverly-javascript/static/js/main.1cd3bf45.chunk.js",
-    "main.js.map": "/irenhh/waverly-javascript/static/js/main.1cd3bf45.chunk.js.map",
+    "main.js": "/irenhh/waverly-javascript/static/js/main.eebebcf4.chunk.js",
+    "main.js.map": "/irenhh/waverly-javascript/static/js/main.eebebcf4.chunk.js.map",
     "runtime-main.js": "/irenhh/waverly-javascript/static/js/runtime-main.a5f25b99.js",
     "runtime-main.js.map": "/irenhh/waverly-javascript/static/js/runtime-main.a5f25b99.js.map",
     "static/js/2.fbb55251.chunk.js": "/irenhh/waverly-javascript/static/js/2.fbb55251.chunk.js",
     "static/js/2.fbb55251.chunk.js.map": "/irenhh/waverly-javascript/static/js/2.fbb55251.chunk.js.map",
     "index.html": "/irenhh/waverly-javascript/index.html",
-    "precache-manifest.2ad6d339bf5bcac9e138a23dd5918e19.js": "/irenhh/waverly-javascript/precache-manifest.2ad6d339bf5bcac9e138a23dd5918e19.js",
+    "precache-manifest.669efb66b34dd6c073c486b706748269.js": "/irenhh/waverly-javascript/precache-manifest.669efb66b34dd6c073c486b706748269.js",
     "service-worker.js": "/irenhh/waverly-javascript/service-worker.js",
     "static/css/main.8195615c.chunk.css.map": "/irenhh/waverly-javascript/static/css/main.8195615c.chunk.css.map",
     "static/js/2.fbb55251.chunk.js.LICENSE.txt": "/irenhh/waverly-javascript/static/js/2.fbb55251.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a5f25b99.js",
     "static/js/2.fbb55251.chunk.js",
     "static/css/main.8195615c.chunk.css",
-    "static/js/main.1cd3bf45.chunk.js"
+    "static/js/main.eebebcf4.chunk.js"
   ]
 }

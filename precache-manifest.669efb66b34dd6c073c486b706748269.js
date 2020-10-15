@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "527fdc4e6dda40cd98e02718dbf2b7e7",
+    "revision": "5077ddf02f9c52af9dc8e9a6c2e7a336",
     "url": "/irenhh/waverly-javascript/index.html"
   },
   {
-    "revision": "1562ca3aeec12c345983",
+    "revision": "3ede550e1c12eabd2969",
     "url": "/irenhh/waverly-javascript/static/css/main.8195615c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/irenhh/waverly-javascript/static/js/2.fbb55251.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1562ca3aeec12c345983",
-    "url": "/irenhh/waverly-javascript/static/js/main.1cd3bf45.chunk.js"
+    "revision": "3ede550e1c12eabd2969",
+    "url": "/irenhh/waverly-javascript/static/js/main.eebebcf4.chunk.js"
   },
   {
     "revision": "690b1976bbdffeb42744",
