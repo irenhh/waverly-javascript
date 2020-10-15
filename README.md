@@ -1,3 +1,5 @@
+[DEMO LINK](https://irenhh.github.io/waverly-javascript/)
+
 This project was made as a part of JavaScript Test Assignment. <br />
 It displays a table with 10 random posts with corresponding info about post details and its author. <br />
 Data was fetched from Hacker News Api (https://hacker-news.firebaseio.com/v0/topstories.json).
