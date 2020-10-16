@@ -11,11 +11,14 @@ Data was fetched from Hacker News Api (https://hacker-news.firebaseio.com/v0/top
 
 Mobile layout is also available.
 
+
+**You can clone the repository and run the project on your machine.** <br />
+
+- run `npm i` to install dependencies. <br />
+- run `npm start` to view the app in the development mode. <br />
+- open *http://localhost:3000* to view it in the browser.
+
 **Screenshots:**
 ![desktop](screenshots/desktop.png)
 <br /><br />
 ![mobile](screenshots/mobile.png)
-
-**You can clone the repository and run the project on your machine.**<br />
-`npm start` - runs the app in the development mode. <br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

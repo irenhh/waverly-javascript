@@ -1,9 +1,11 @@
 import React from 'react';
 import { LoaderContainer } from './style';
 
-export const Loader = () => (
+const LoaderTemplate = () => (
   <LoaderContainer>
     <div />
     <div />
   </LoaderContainer>
 );
+
+export const Loader = React.memo(LoaderTemplate);
