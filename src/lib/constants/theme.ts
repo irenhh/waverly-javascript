@@ -13,4 +13,10 @@ export const theme = {
     duration: '0.35s',
     ease: 'cubic-bezier(.3, .1, .3, 1)',
   },
+
+  fontWeight: {
+    regular: 400,
+    medium: 500,
+    semibold: 600,
+  },
 };

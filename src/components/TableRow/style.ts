@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { captionText, link, secondaryTitle } from '../Typography';
 
 export const DataRow = styled.tr`
   ${({ theme }) => css`
@@ -12,23 +13,18 @@ export const DataRow = styled.tr`
 
 export const StoryTitle = styled.p`
   ${({ theme }) => css`
+    ${secondaryTitle()};
     color: ${theme.color.lightBlack};
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
     margin-bottom: 5px;
   `}
 `;
 
 export const StoryLink = styled.a`
   ${({ theme }) => css`
-    color: ${theme.color.brown}
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.05em;
-    transition: all ${theme.transition.duration} ${theme.transition.ease};
+    ${link()};
     position: relative;
+    color: ${theme.color.brown};
+    transition: all ${theme.transition.duration} ${theme.transition.ease};
     
     &:before,
     &:after {
@@ -57,49 +53,40 @@ export const StoryLink = styled.a`
         width: 50%;
         opacity: 1;
       }
-      
-
+    }
   `}
 `;
 
 export const StoryAuthor = styled.span`
   ${({ theme }) => css`
+    ${captionText()};
     color: ${theme.color.brown};
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
   `}
 `;
 
 export const AuthorKarma = styled.span`
   ${({ theme }) => css`
-    background: ${theme.color.lightPink};
-    border-radius: 10px;  
-    color: ${theme.color.darkBlue};
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+    ${captionText()};
+    border-radius: 10px;
     margin-left: 5px;
     padding: 2px 10px;
+    background: ${theme.color.lightPink};  
+    color: ${theme.color.darkBlue};
     cursor: default;
   `}
 `;
 
 export const StoryDate = styled.div`
   ${({ theme }) => css`
+    ${captionText()};
     color: ${theme.color.lightBlack};
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
   `}
 `;
 
 export const StoryScore = styled.div`
   ${({ theme }) => css`
+    ${secondaryTitle()};
     color: ${theme.color.lightBlack};
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
     text-transform: uppercase;
   `}
 `;

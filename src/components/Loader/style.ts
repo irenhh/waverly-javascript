@@ -9,9 +9,9 @@ export const LoaderContainer = styled.div`
     
     div {
       position: absolute;
+      border-radius: 50%;
       background: ${theme.color.brown};
       opacity: 1;
-      border-radius: 50%;
       animation: loading 1.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
     }
     

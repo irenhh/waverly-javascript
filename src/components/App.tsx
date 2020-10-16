@@ -1,10 +1,10 @@
 import React, { useState, useEffect, FC } from 'react';
-import { NewsTable } from './components/NewsTable';
-import { getAuthorData, getNewsIds, getStoryData } from './lib/helpers/getData';
-import { NewsData } from './lib/helpers/getData.types';
+import { NewsTable } from './NewsTable';
+import { getAuthorData, getNewsIds, getStoryData } from '../lib/helpers/getData';
+import { NewsData } from '../lib/helpers/getData.types';
 import { MainContainer, TableHeading } from './style';
-import { Loader } from './components/Loader';
-import { ErrorPage } from './components/ErrorPage';
+import { Loader } from './Loader';
+import { ErrorPage } from './ErrorPage';
 
 const App: FC = () => {
   const [stories, setStories] = useState<NewsData[]>([]);

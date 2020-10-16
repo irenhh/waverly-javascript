@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { primaryTitle } from './Typography';
 
 export const MainContainer = styled.div`
   display: flex;
@@ -9,10 +10,7 @@ export const MainContainer = styled.div`
 
 export const TableHeading = styled.h1`
   ${({ theme }) => css`
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.1em;
+    ${primaryTitle()};
     text-transform: uppercase;
     color: ${theme.color.brown};
     margin-bottom: 20px;
