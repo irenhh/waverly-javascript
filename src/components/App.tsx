@@ -5,6 +5,7 @@ import { NewsData } from '../lib/helpers/getData.types';
 import { MainContainer, TableHeading } from './style';
 import { Loader } from './Loader';
 import { ErrorPage } from './ErrorPage';
+import { getRandomElements } from '../lib/helpers/getRandomElements';
 
 const App: FC = () => {
   const [stories, setStories] = useState<NewsData[]>([]);
@@ -16,7 +17,8 @@ const App: FC = () => {
       setIsLoading(true);
 
       try {
-        const slicedNews = await getNewsIds().then((data) => data.slice(0, 10));
+        const slicedNews = await getNewsIds()
+          .then((data) => getRandomElements(data, 10));
 
         const preparedNews = await Promise.all(
           await slicedNews.map(async (newsId) => {
